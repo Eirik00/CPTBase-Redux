@@ -629,7 +629,7 @@ function ENT:Initialize()
 		end
 	end)
 
-	self:SetSurroundingBoundsType(BOUNDS_HITBOXES)
+	-- self:SetSurroundingBoundsType(BOUNDS_HITBOXES)
 end
 ---------------------------------------------------------------------------------------------------------------------------------------------
 function ENT:SpawnNavMeshEntity()
@@ -831,7 +831,7 @@ function ENT:SetNPCModel(mdl)
 	else
 		self:SetModel(mdl)
 	end
-	self:SetSurroundingBoundsType(BOUNDS_HITBOXES)
+	-- self:SetSurroundingBoundsType(BOUNDS_HITBOXES)
 end
 ---------------------------------------------------------------------------------------------------------------------------------------------
 local ang0 = Angle(0,0,0)
